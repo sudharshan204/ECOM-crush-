@@ -1,0 +1,40 @@
+.navigation-bar {
+    font-family: "Poppins", sans-serif;
+    margin: 0 auto;
+    max-width: 90%;
+    display: flex;
+    margin-left: 100px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-elements ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-elements li {
+    list-style: none;
+    margin-right: 50px;
+  }
+  
+  .nav-elements a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .nav-btn {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-btn > button {
+    margin-right: 100px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    padding: 9px 14px;
+    background-color: #090909;
+  }
